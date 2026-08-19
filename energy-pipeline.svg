@@ -1,0 +1,60 @@
+<svg width="1200" height="660" viewBox="0 0 1200 660" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Representative Energy AI data workflow</title>
+  <desc id="desc">A sanitized editorial diagram showing raw well logs, audit and quality assurance, structured data, geospatial and time-series analysis, and predictive analysis support.</desc>
+  <rect width="1200" height="660" rx="20" fill="#F6F5F1"/>
+  <text x="70" y="78" fill="#65717A" font-family="IBM Plex Mono, monospace" font-size="15" letter-spacing="1.5">REPRESENTATIVE / SANITIZED WORKFLOW</text>
+  <text x="70" y="122" fill="#172129" font-family="IBM Plex Sans, sans-serif" font-size="34" font-weight="600">From complex well data to usable analytical inputs</text>
+  <g transform="translate(70,190)">
+    <g>
+      <rect width="190" height="280" rx="14" fill="#FFFFFF" stroke="#D8D7D2"/>
+      <text x="24" y="42" fill="#B55B2A" font-family="IBM Plex Mono, monospace" font-size="12">01 / INPUT</text>
+      <text x="24" y="78" fill="#172129" font-family="IBM Plex Sans, sans-serif" font-size="22" font-weight="600">Raw Well Logs</text>
+      <g stroke="#D8D7D2"><path d="M40 116V236M76 116V236M112 116V236M148 116V236"/><path d="M25 145H166M25 180H166M25 215H166"/></g>
+      <path d="M52 118C70 137 45 151 73 166C91 177 62 192 84 207C99 218 86 229 111 236" stroke="#B55B2A" stroke-width="3"/>
+      <path d="M139 118C118 132 145 152 122 170C99 187 134 203 106 221C94 229 93 233 86 236" stroke="#487A76" stroke-width="3"/>
+    </g>
+    <g transform="translate(220,0)">
+      <rect width="190" height="280" rx="14" fill="#FFFFFF" stroke="#D8D7D2"/>
+      <text x="24" y="42" fill="#B55B2A" font-family="IBM Plex Mono, monospace" font-size="12">02 / QUALITY</text>
+      <text x="24" y="78" fill="#172129" font-family="IBM Plex Sans, sans-serif" font-size="22" font-weight="600">Audit / QA</text>
+      <text x="24" y="112" fill="#65717A" font-family="IBM Plex Sans, sans-serif" font-size="14">Python + SQL</text>
+      <g fill="none" stroke-width="2"><circle cx="48" cy="158" r="12" stroke="#487A76"/><path d="M42 158L47 163L56 152" stroke="#487A76"/><circle cx="48" cy="199" r="12" stroke="#487A76"/><path d="M42 199L47 204L56 193" stroke="#487A76"/></g>
+      <text x="72" y="163" fill="#172129" font-family="IBM Plex Sans, sans-serif" font-size="14">Clean records</text>
+      <text x="72" y="204" fill="#172129" font-family="IBM Plex Sans, sans-serif" font-size="14">Audit structure</text>
+      <text x="24" y="250" fill="#65717A" font-family="IBM Plex Mono, monospace" font-size="11">71 COMPLEX WELL LOGS</text>
+    </g>
+    <g transform="translate(440,0)">
+      <rect width="190" height="280" rx="14" fill="#FFFFFF" stroke="#D8D7D2"/>
+      <text x="24" y="42" fill="#B55B2A" font-family="IBM Plex Mono, monospace" font-size="12">03 / STRUCTURE</text>
+      <text x="24" y="78" fill="#172129" font-family="IBM Plex Sans, sans-serif" font-size="22" font-weight="600">Structured Data</text>
+      <g transform="translate(24,122)" stroke="#D8D7D2"><rect width="142" height="102" rx="6" fill="#FBFAF7"/><path d="M0 34H142M0 68H142M47 0V102M95 0V102"/></g>
+      <circle cx="47" cy="241" r="4" fill="#B55B2A"/><text x="59" y="246" fill="#65717A" font-family="IBM Plex Sans, sans-serif" font-size="13">Usable inputs</text>
+    </g>
+    <g transform="translate(660,0)">
+      <rect width="190" height="280" rx="14" fill="#FFFFFF" stroke="#D8D7D2"/>
+      <text x="24" y="42" fill="#B55B2A" font-family="IBM Plex Mono, monospace" font-size="12">04 / ANALYSIS</text>
+      <text x="24" y="78" fill="#172129" font-family="IBM Plex Sans, sans-serif" font-size="22" font-weight="600">Spatial + Time</text>
+      <g opacity="0.55" stroke="#D8D7D2"><path d="M24 120H164M24 160H164M24 200H164"/><path d="M56 104V224M94 104V224M132 104V224"/></g>
+      <path d="M34 202C62 176 64 139 103 149C126 155 136 127 158 118" stroke="#487A76" stroke-width="3" stroke-dasharray="5 6"/>
+      <g fill="#B55B2A"><circle cx="42" cy="195" r="6"/><circle cx="78" cy="158" r="6"/><circle cx="112" cy="147" r="6"/><circle cx="154" cy="120" r="6"/></g>
+      <text x="24" y="250" fill="#65717A" font-family="IBM Plex Sans, sans-serif" font-size="13">Geospatial + time-series</text>
+    </g>
+    <g transform="translate(880,0)">
+      <rect width="190" height="280" rx="14" fill="#1B2931"/>
+      <text x="24" y="42" fill="#E6A37E" font-family="IBM Plex Mono, monospace" font-size="12">05 / SUPPORT</text>
+      <text x="24" y="75" fill="#FFFFFF" font-family="IBM Plex Sans, sans-serif" font-size="20" font-weight="600">Predictive</text>
+      <text x="24" y="101" fill="#FFFFFF" font-family="IBM Plex Sans, sans-serif" font-size="20" font-weight="600">Analysis</text>
+      <text x="24" y="127" fill="#FFFFFF" font-family="IBM Plex Sans, sans-serif" font-size="20" font-weight="600">Support</text>
+      <path d="M28 207C54 189 67 195 91 166C108 146 133 154 162 136" stroke="#E6A37E" stroke-width="3"/>
+      <circle cx="162" cy="136" r="7" fill="#E6A37E"/>
+      <text x="24" y="250" fill="#BFCBD0" font-family="IBM Plex Sans, sans-serif" font-size="12">No model ownership implied</text>
+    </g>
+    <g stroke="#B55B2A" stroke-width="2">
+      <path d="M192 140H215"/><path d="M208 134L216 140L208 146"/>
+      <path d="M412 140H435"/><path d="M428 134L436 140L428 146"/>
+      <path d="M632 140H655"/><path d="M648 134L656 140L648 146"/>
+      <path d="M852 140H875"/><path d="M868 134L876 140L868 146"/>
+    </g>
+  </g>
+  <text x="70" y="558" fill="#65717A" font-family="IBM Plex Sans, sans-serif" font-size="16">This graphic communicates the verified workflow category only; it does not reproduce project data, algorithms, or results.</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg width="960" height="390" viewBox="0 0 960 390" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering direction</title>
+  <desc id="desc">A restrained process diagram from Petroleum Engineering to Reservoir Engineering to a computational toolkit.</desc>
+  <rect width="960" height="390" rx="18" fill="#FBFAF7"/>
+  <text x="54" y="58" fill="#65717A" font-family="IBM Plex Mono, monospace" font-size="13" letter-spacing="1.3">PROFESSIONAL DIRECTION</text>
+  <g transform="translate(54 118)">
+    <rect width="240" height="170" rx="12" fill="#1B2931"/>
+    <text x="24" y="41" fill="#BFCBD0" font-family="IBM Plex Mono, monospace" font-size="11">IDENTITY</text>
+    <text x="24" y="86" fill="#FFFFFF" font-family="IBM Plex Sans, sans-serif" font-size="27" font-weight="600">Petroleum</text>
+    <text x="24" y="119" fill="#FFFFFF" font-family="IBM Plex Sans, sans-serif" font-size="27" font-weight="600">Engineering</text>
+    <text x="24" y="148" fill="#BFCBD0" font-family="IBM Plex Sans, sans-serif" font-size="13">Current undergraduate discipline</text>
+  </g>
+  <g transform="translate(360 118)">
+    <rect width="240" height="170" rx="12" fill="#F6F5F1" stroke="#D8D7D2"/>
+    <text x="24" y="41" fill="#B55B2A" font-family="IBM Plex Mono, monospace" font-size="11">DIRECTION</text>
+    <text x="24" y="86" fill="#172129" font-family="IBM Plex Sans, sans-serif" font-size="27" font-weight="600">Reservoir</text>
+    <text x="24" y="119" fill="#172129" font-family="IBM Plex Sans, sans-serif" font-size="27" font-weight="600">Engineering</text>
+    <text x="24" y="148" fill="#65717A" font-family="IBM Plex Sans, sans-serif" font-size="13">Intended technical specialization</text>
+  </g>
+  <g transform="translate(666 118)">
+    <rect width="240" height="170" rx="12" fill="#EDF1EF" stroke="#C7D2CF"/>
+    <text x="24" y="41" fill="#487A76" font-family="IBM Plex Mono, monospace" font-size="11">DIFFERENTIATOR</text>
+    <text x="24" y="81" fill="#172129" font-family="IBM Plex Sans, sans-serif" font-size="24" font-weight="600">Computational</text>
+    <text x="24" y="112" fill="#172129" font-family="IBM Plex Sans, sans-serif" font-size="24" font-weight="600">Toolkit</text>
+    <text x="24" y="145" fill="#65717A" font-family="IBM Plex Sans, sans-serif" font-size="13">Data · Python · SQL · Automation</text>
+  </g>
+  <g stroke="#B55B2A" stroke-width="2"><path d="M304 203H348"/><path d="M340 197L349 203L340 209"/><path d="M610 203H654"/><path d="M646 197L655 203L646 209"/></g>
+</svg>
