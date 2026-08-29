@@ -292,7 +292,13 @@ strong { font-weight: 600; color: var(--ink); }
 }
 
 /* ---------- 9. Datasheet ---------- */
-.datasheet { border: 1px solid var(--rule); border-radius: 3px; background: var(--surface); overflow: hidden; }
+.datasheet {
+  align-self: start;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: var(--surface);
+  overflow: hidden;
+}
 .datasheet__cap {
   padding: .8rem 1rem; background: var(--accent-wash);
   border-bottom: 1px solid #d5e3ea;
