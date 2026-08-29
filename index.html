@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Miguel Gonzalez-Ramirez | Petroleum Engineering, UT Austin</title>
-<meta name="description" content="Petroleum engineering sophomore at UT Austin building toward reservoir engineering. Seeking a Summer 2027 internship. Well-log interpretation, production forecasting with Python and scikit-learn, and geospatial analysis.">
+<meta name="description" content="UT Austin petroleum engineering sophomore building toward reservoir engineering and seeking a Summer 2027 internship. Independent Haynesville production analysis, Python, Louisiana SONRIS public data, well-log interpretation, geospatial analysis, and subsurface machine learning.">
 <meta name="author" content="Miguel Gonzalez-Ramirez">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Miguel Gonzalez-Ramirez | Petroleum Engineering, UT Austin">
-<meta property="og:description" content="Petroleum engineering sophomore at UT Austin building toward reservoir engineering. Seeking a Summer 2027 internship in reservoir, production, or subsurface engineering.">
-<meta property="og:image" content="assets/img/spatial-correlation.png">
+<meta property="og:description" content="UT Austin petroleum engineering sophomore seeking a Summer 2027 reservoir, production, or subsurface engineering internship. Independent Haynesville production analysis, public SONRIS data, Python, and subsurface machine learning.">
+<meta property="og:image" content="assets/img/haynesville-parent-child-timing.png">
 <meta name="twitter:card" content="summary_large_image">
 
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
@@ -114,13 +114,63 @@
     <div class="shell band__inner">
       <div class="band__head">
         <p class="eyebrow">Selected projects &amp; experience</p>
-        <h2 class="band__title" id="work-title">Two projects, worked end to end</h2>
-        <p class="band__sub">One subsurface competition project, one municipal internship. Each project summary covers the problem, what I personally did, the method, and where the analysis has limits.</p>
+        <h2 class="band__title" id="work-title">Three projects, worked end to end</h2>
+        <p class="band__sub">Independent reservoir engineering, subsurface machine learning, and applied analytics. Each project shows the problem, what I personally did, the method, and where the analysis has limits.</p>
       </div>
 
       <div class="projects">
 
         <!-- Project 01 -->
+        <article class="project">
+          <div class="project__top">
+            <div>
+              <span class="project__index">Independent Reservoir Engineering Study</span>
+              <h3 class="project__title">
+                <a href="https://github.com/mgonza2/haynesville-parent-child-interference" target="_blank" rel="noopener noreferrer">Haynesville parent-child interference from public production data</a>
+              </h3>
+              <p class="project__org">Independent Project / Haynesville Shale, De Soto Parish, Louisiana / Aug 2026</p>
+              <div class="project__body">
+                <p>I built a public-data event study to test whether the timing between parent development and nearby child development was associated with deviations from parent-unit gas-production trends. Using Louisiana SONRIS well attributes, production records, and approximate wellbore geometry, I screened roughly 280 parent-child candidate pairs by timing, spacing, orientation, reservoir, field, and operator before analyzing 11 quality-controlled events and 143 monthly observations.</p>
+                <p>During data QA, I identified that Louisiana reports production at the Lease/Unit/Well (LUW) reporting-entity level rather than necessarily by individual well. I redesigned the methodology around stable parent reporting units instead of treating aggregate production as individual-well data. Timing alone did not show a stable relationship with production deviation across sensitivity groups, and the analysis exposed how strongly the result depends on the pre-event trend specification.</p>
+              </div>
+              <div class="chips">
+                <span class="chip">Reservoir engineering</span><span class="chip">Python</span>
+                <span class="chip">pandas</span><span class="chip">NumPy</span>
+                <span class="chip">SONRIS</span><span class="chip">Production analysis</span>
+                <span class="chip">Event study</span><span class="chip">Data QA</span>
+              </div>
+              <a class="project__cta"
+                 href="https://github.com/mgonza2/haynesville-parent-child-interference"
+                 target="_blank" rel="noopener noreferrer">
+                View reproducible project on GitHub →
+              </a>
+            </div>
+
+            <div class="datasheet">
+              <p class="datasheet__cap">Final analytical sample</p>
+              <dl>
+                <dt>Screened candidate pairs</dt><dd>~280</dd>
+                <dt>QC-passing events</dt><dd>11</dd>
+                <dt>Monthly observations</dt><dd>143</dd>
+                <dt>Primary-quality events</dt><dd>6</dd>
+                <dt>Timing range</dt><dd>6–110 mo</dd>
+                <dt>Spacing range</dt><dd>331–1,085 ft</dd>
+              </dl>
+              <p class="datasheet__foot">Exploratory public-data study. Results measure association with deviation from a pre-event trend and do not establish causal child-well effects.</p>
+            </div>
+          </div>
+
+          <div class="figgrid">
+            <figure class="figcell" style="grid-column: 1 / -1;">
+              <img loading="lazy" src="assets/img/haynesville-parent-child-timing.png"
+                   alt="Timing gap versus six-month parent-unit production deviation for primary-quality Haynesville parent-child development events.">
+              <figcaption><b>Fig. 1</b> Timing gap versus six-month deviation for the six primary-quality events. The apparent relationship was not stable across inclusion rules, so timing alone was not treated as a reliable predictor.</figcaption>
+            </figure>
+            <p class="figgrid__note">Louisiana production is reported at the LUW reporting-entity level rather than necessarily by individual well. Discovering that limitation during QA led me to redesign the analysis around stable reporting units instead of creating unsupported per-well estimates.</p>
+          </div>
+        </article>
+
+        <!-- Project 02 -->
         <article class="project">
           <div class="project__top">
             <div>
@@ -177,7 +227,7 @@
           </div>
         </article>
 
-        <!-- Project 02 -->
+        <!-- Project 03 -->
         <article class="project">
           <div class="project__top">
             <div>
@@ -228,15 +278,16 @@
             <h3 class="capcard__title">Applied in project work</h3>
             <p class="capcard__note">Used to produce a deliverable someone else depended on.</p>
             <ul>
-              <li><b>Python: pandas, NumPy</b><span>Well-log and production data processing, 71 wells</span></li>
+              <li><b>Python: pandas, NumPy</b><span>Reproducible SONRIS production event study and subsurface ML data processing</span></li>
               <li><b>scikit-learn: random forest</b><span>Three-year cumulative production forecasting</span></li>
               <li><b>SQL</b><span>Auditing and querying well-log records</span></li>
-              <li><b>Geospatial analysis</b><span>Well position versus performance, sand-proportion extraction</span></li>
-              <li><b>Time-series analysis</b><span>Peak production intervals and gas-oil ratio</span></li>
+              <li><b>Geospatial analysis</b><span>Parent-child well spacing and orientation screening; well position versus performance</span></li>
+              <li><b>Time-series analysis</b><span>Pre-event production baselines, six-month event windows, peak production, and gas-oil ratio</span></li>
+              <li><b>Public petroleum data</b><span>Louisiana SONRIS well attributes, monthly production, and wellbore geometry</span></li>
               <li><b>Well-log interpretation</b><span>Feature selection across porosity, permeability, GR, acoustic impedance</span></li>
               <li><b>Placer.ai</b><span>Foot traffic across 4,000+ commercial parcels</span></li>
               <li><b>Leakage and void analysis</b><span>Unmet retail demand, City of Tyler</span></li>
-              <li><b>Microsoft Excel</b><span>Downtown Tyler analysis and reporting</span></li>
+              <li><b>Microsoft Excel</b><span>Formula-driven reservoir event-study workbook and municipal market analysis</span></li>
             </ul>
           </div>
         </div>
